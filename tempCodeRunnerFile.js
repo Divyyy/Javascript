@@ -1,1 +1,1 @@
-console.log(myDate.toString());
+marvel_heros.push(dc_heros);
