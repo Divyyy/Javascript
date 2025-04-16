@@ -9,7 +9,7 @@ const dc_heros=["flash","batman","superman"];
 
 const all_new_heros = [...marvel_heros,...dc_heros]
 // console.log(all_new_heros);
-// here in aboe syntax we used spread opreator it helps to add more than 1 element it is better than concat
+// here in above (it is know as spread operator) syntax we used spread opreator it helps to add more than 1 element it is better than concat
 const another_array = [1,2,3,[4,5,6],7,[6,7,[4,5]]]
 
 const real_another_array = another_array.flat(Infinity)
