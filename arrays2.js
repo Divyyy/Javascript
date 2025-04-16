@@ -12,7 +12,7 @@ const all_new_heros = [...marvel_heros,...dc_heros]
 // here in above (it is know as spread operator) syntax we used spread opreator it helps to add more than 1 element it is better than concat
 const another_array = [1,2,3,[4,5,6],7,[6,7,[4,5]]]
 
-const real_another_array = another_array.flat(Infinity)
+const real_another_array = another_array.flat(Infinity)   // it removes array within array it also ask how much depth so here we used infinty so that it can provide upto infinty depth
 // console.log(real_another_array);
 console.log(Array.isArray("Hitesh"));
 console.log(Array.from("Hitesh"));
