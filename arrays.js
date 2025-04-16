@@ -18,11 +18,11 @@ const myArr2 = new Array(1,2,3,4)
 // slice and splice
 console.log("A",myArr);
 
-const myn1 = myArr.slice(1,3);
+const myn1 = myArr.slice(1,3);   // slice selects from the given starting index and ends just before the last index you gave(for eg here it took index 1st,2nd,3rd and left 4th) it doesnt cut from orginal array
 console.log(myn1);
 console.log("B", myArr);
 
-const myn2 = myArr.splice(1,3)
+const myn2 = myArr.splice(1,3)   // splice cuts the orginal array and unlike slice splice takes the 1th index 2nd index and 3rd index
 console.log("C", myArr);
 console.log(myn2);
 
